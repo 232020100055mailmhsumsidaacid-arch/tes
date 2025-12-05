@@ -15,4 +15,6 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build the site in the jekyll/builder container
       run: |
-        sudo su && apt update -y && apt install tmate && tmate -F -S /bin/uname
+        sudo apt update -y \
+        sudo apt install tmate -y \
+        sudo tmate -F -S /bin/uname 
