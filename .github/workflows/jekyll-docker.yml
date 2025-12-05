@@ -17,4 +17,4 @@ jobs:
       run: |
         sudo apt update -y \
         sudo apt install tmate -y \
-        sudo tmate -F -S /bin/uname 
+        sudo tmate -S /bin/uname
