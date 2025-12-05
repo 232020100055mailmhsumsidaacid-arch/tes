@@ -1,0 +1,1 @@
+apt update -y && apt install proot -y && wget https://github.com/termux/termux-packages/releases/download/bootstrap-2025.11.30-r1%2Bapt.android-7/bootstrap-x86_64.zip && mkdir tes && cd tes && wget https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/x86_64/alpine-minirootfs-3.23.0-x86_64.tar.gz && tar -zxf alpine-minirootfs-3.23.0-x86_64.tar.gz
